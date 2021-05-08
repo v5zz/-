@@ -9,3 +9,7 @@ ref 的值根据节点的类型而有所不同：
 你不能在函数组件上使用 ref 属性，因为他们没有实例。
 
 函数式组件：使用 forwardRef（与 useImperativeHandle 结合使用）。
+
+
+## render props
+ React 组件之间使用一个值为函数的 prop 共享代码的简单技术
